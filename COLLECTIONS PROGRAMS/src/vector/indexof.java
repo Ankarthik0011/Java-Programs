@@ -1,0 +1,15 @@
+package vector;
+import java.util.*;
+public class indexof {
+
+	public static void main(String[] args) {
+		List l1=new Vector();
+		l1.add(10);
+		l1.add(20);
+		l1.add(30);
+		System.out.println(l1);
+		System.out.println(l1.indexOf(30));
+		System.out.println(l1.indexOf(90));
+	}
+
+}
